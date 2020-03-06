@@ -1,0 +1,221 @@
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+select,
+button {
+    background-color: #f2f0ea;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 36px;
+}
+
+input {
+    background-color: #f2f0ea;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 15px;
+}
+
+textarea {
+    border-radius: 5px;
+    padding-left: 15px;
+    text-align: justify;
+    outline: none;
+}
+
+
+/* ======================= MAPS ===================== */
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* =================================================== */
+
+.header-img {
+    width: 1280px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+}
+
+.page-header {
+    color: #3a1c71;
+    font-size: 24px;
+}
+
+.slider-img {
+    float: left;
+    width: 1280px;
+    height: 280px;
+    overflow: hidden;
+}
+
+.main {
+    width: 1280px;
+    height: 500px;
+    float: left;
+}
+
+.intro-2 {
+    background: url("./image/178d302a34a8ccf695b9.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.view {
+    margin-top: -50px;
+}
+
+.navbar-dark,
+.navbar-brand {
+    color: black;
+}
+
+.navbar {
+    color: black;
+    z-index: 1;
+}
+
+.darkgray-bg {
+    background-color: #ecbaa1;
+    /* background-image: linear-gradient(to right, #3a1c71, #fc9d78, #59e7a0); */
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+display-flex,
+.content,
+.lib-img {
+    display: -webkit-flex;
+}
+
+.bg-cl {
+    background-image: linear-gradient(to right, #fc9d78, #3a1c71, #59e7a0);
+}
+
+@media screen and (max-width: 1280px) {
+    /* .main2, */
+    .pg-foote {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .header-img,
+    .slider-img {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 789px) {
+    .header-img,
+    .slider-img {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+}
+
+.bgcl-checkroom {
+    background-color: #ecbaa1;
+}
+
+
+/* .bg-color {
+    background-color: #fab08b;
+    fill-opacity: 3%;
+} */
+
+.clear {
+    clear: both;
+}
+
+
+/* ==================================FORM - UPLOAD - ROOM ======================================== */
+
+.form-up-room {
+    display: block;
+    margin-top: 0em;
+    padding: 55px 80px 36px 55px;
+    display: flex;
+}
+
+.form-infor {
+    flex: 1;
+}
+
+.form-infor input {
+    width: 280px;
+    border-radius: 0px;
+    border-bottom: 1px solid brown;
+}
+
+.bt-info {
+    font-size: 16px;
+    font-weight: bold;
+    background-image: linear-gradient(to left, #4bf2cb, #df4df8, #f75053);
+    border: none;
+    border-radius: 9px;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-image {
+    flex: 1;
+    float: left;
+    width: 100%;
+}
+
+
+/* ============================== MY - ROOM ============================== */
+
+.my-room {
+    display: block;
+    /* color: black; */
+}
+
+.center-column {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    background-color: darkgray;
+}
+
+.center-column section {
+    flex: 1;
+    margin: 30px;
+    padding: 20px;
+}
+
+.article-img {
+    flex: 2;
+    height: 290px
+}
+
+hr {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: black;
+}
